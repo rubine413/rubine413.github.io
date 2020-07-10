@@ -1,0 +1,548 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  
+  <title>Rubine</title>
+  <meta name="author" content="rubine.lee">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="Rubine">
+
+  
+    <meta property="og:image" content>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-70812759-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cb5448498d7169c668b07c2b255d62c1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</head>
+</html>
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">Rubine</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class=""></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class=""></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class=""></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class=""></i>About
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/atom.xml" title="Subscribe me.">
+			  <i class=""></i>RSS
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 <div class="page-header logo">
+  <h1>THINK TWICE, CODE ONCE<span class="blink-fast">∎</span></h1>
+</div>
+
+<div class="row page">
+
+	
+	<div class="col-md-9">
+	
+
+		<div class="slogan">
+
+
+		<i class="fa fa-heart blink-slow"></i>
+
+		Keep and carry on.
+
+</div>    
+
+		<div id="top_search"></div>
+		<div class="mypage">
+		
+		<!-- title and entry -->
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2017/05/12/git使用ssh配置多个账号/" >git使用ssh配置多个账号</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2017-05-12  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h4 id="生成本地密钥"><a href="#生成本地密钥" class="headerlink" title="生成本地密钥"></a>生成本地密钥</h4><p>假如我们有2个git账号，分别来自<a href="https://www.github.com/" target="_blank" rel="noopener">github</a>和<a href="https://coding.net/" target="_blank" rel="noopener">coding</a>，进入目录C:\Users\Administrator\.ssh</p>
+<p>首先生成github密钥，注意区分密钥文件名<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"email@gmail.com"</span> -f id_rsa_github</span><br></pre></td></tr></table></figure></p>
+<p>生成coding密钥<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"email@qq.com"</span> -f id_rsa_coding</span><br></pre></td></tr></table></figure></p>
+<p>生成结果如下所示，以pub结尾的就是公钥文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">-rw-------+ 1 Administrator None 1679 Dec 19 12:17 id_rsa_coding</span><br><span class="line">-rw-r--r--+ 1 Administrator None  397 Dec 19 12:17 id_rsa_coding.pub</span><br><span class="line">-rw-------+ 1 Administrator None 1679 Dec 17 10:29 id_rsa_github</span><br><span class="line">-rw-r--r--+ 1 Administrator None  399 Dec 17 10:29 id_rsa_github.pub</span><br></pre></td></tr></table></figure></p>
+<hr>
+<h4 id="添加私钥"><a href="#添加私钥" class="headerlink" title="添加私钥"></a>添加私钥</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-add id_rsa_github</span><br><span class="line">ssh-add id_rsa_coding</span><br></pre></td></tr></table></figure>
+<p>如果返回<code>could not open a connection to your authentication agent</code>, 则先执行以下命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-agent bash</span><br></pre></td></tr></table></figure></p>
+	
+	</div>
+  <a type="button" href="/2017/05/12/git使用ssh配置多个账号/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2017/01/09/js中的this/" >js中的this</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2017-01-09  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		
+	
+	</div>
+  <a type="button" href="/2017/01/09/js中的this/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2016/01/01/关于Promise/" >关于Promise</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2016-01-01  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		
+	
+	</div>
+  <a type="button" href="/2016/01/01/关于Promise/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2015/11/17/JS交换两个变量的值/" >JS交换两个变量的值</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2015-11-17  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		<p>这个问题看似很基础，却有很多的实现方式</p>
+<ul>
+<li><p>使用中间变量</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">3</span>, b = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">var</span> temp;</span><br><span class="line">temp = a; </span><br><span class="line">a = b;</span><br><span class="line">b = temp;</span><br><span class="line"><span class="built_in">console</span>.log(a, b);  <span class="comment">// 2,3</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用运算符(仅数字)</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">3</span>, b = <span class="number">2</span>;</span><br><span class="line"><span class="comment">// 加法</span></span><br><span class="line">b = a + b;</span><br><span class="line">a = b - a;</span><br><span class="line">b = b - a; </span><br><span class="line"><span class="built_in">console</span>.log(a, b);  <span class="comment">// 2,3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 减法</span></span><br><span class="line"><span class="keyword">var</span> a = <span class="number">3</span>, b = <span class="number">2</span>;</span><br><span class="line">b = a - b;</span><br><span class="line">a = a - b;</span><br><span class="line">b = a + b;</span><br><span class="line"><span class="built_in">console</span>.log(a, b);  <span class="comment">// 2,3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 异或</span></span><br><span class="line"><span class="keyword">var</span> a = <span class="number">3</span>, b = <span class="number">2</span>;</span><br><span class="line">b = a ^ b;</span><br><span class="line">a = a ^ b;</span><br><span class="line">b = a ^ b;</span><br><span class="line"><span class="built_in">console</span>.log(a, b);  <span class="comment">// 2,3</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+	
+	</div>
+  <a type="button" href="/2015/11/17/JS交换两个变量的值/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2015/10/12/HTML中meta标签用法及示例/" >HTML中meta标签用法及示例</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2015-10-12  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta" target="_blank" rel="noopener"><code>&lt;meta&gt;</code></a>标签是位于HTML文档<code>&lt;head&gt;</code>标签中的一个辅助性标签。它常用于定义网页文档的属性，如作者、关键字、日期、网页描述及其它的元数据等，这些元数据将服务于浏览器（如何布局或重载页面），搜索引擎和其它网络服务。</p>
+<hr>
+<h3 id="属性及用法示例"><a href="#属性及用法示例" class="headerlink" title="属性及用法示例"></a>属性及用法示例</h3><p><code>&lt;meta&gt;</code>常用的属性主要有四个：<code>http-equiv</code>、<code>name</code>、<code>content</code>和<code>charset</code>。不同的属性有不同的参数值，这些不同的参数值就实现了不同的网页功能。其中<code>http-equiv</code>顾名思义，常用来做http协议上的一些限制。<code>content</code>属性用于指定<code>http-equiv</code>或<code>name</code>属性所设参数的具体值，<code>charset</code>为HTML5中新增属性，用于声明当前文档所使用的字符编码。</p>
+<ul>
+<li><h4 id="charset"><a href="#charset" class="headerlink" title="charset"></a>charset</h4><p>html5新增属性，声明当前文档所使用的字符编码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  相当于HTML 4.01中的如下代码</p>
+  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html; charset=utf-8"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+	
+	</div>
+  <a type="button" href="/2015/10/12/HTML中meta标签用法及示例/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2015/09/03/关于浏览器缓存机制/" >关于浏览器缓存机制</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2015-09-03  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		
+	
+	</div>
+  <a type="button" href="/2015/09/03/关于浏览器缓存机制/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
+			<a href="/2013/05/03/eclipse使用问题汇总/" title="记录使用eclipse开发过程中遇到的各种问题">eclipse使用问题汇总</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2013-05-03  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		<div id="sequence-0"></div>
+
+<p><div id="flowchart-0" class="flow-chart"></div></p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script><textarea id="sequence-0-code" style="display: none">participant 客户端 as A
+participant 服务端 as B
+participant 通行证中心 as C
+Note over A:用户输入通行证账号、密码
+A->C: 发送账号、密码
+Note over C:验证账号、密码
+C-->>A:返回token
+A->B:发送token
+B->C:验证token
+C-->>B:验证成功
+B-->>A:登陆成功
+Note left of A:左边注释
+B->B:自交互
+Note right of C:右边注释</textarea><textarea id="sequence-0-options" style="display: none">{"scale":1,"line-width":1,"line-length":50,"text-margin":10,"font-size":12,"theme":"simple"}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始
+io=>inputoutput: 验证
+op=>operation: 选项
+cond=>condition: 是 或 否？
+sub=>subroutine: 子程序
+e=>end: 结束
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":1,"line-length":50,"text-margin":10,"font-size":12,"theme":"simple"}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
+
+	
+	</div>
+  <a type="button" href="/2013/05/03/eclipse使用问题汇总/#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+
+		</div>
+
+		<!-- pagination -->
+		<div>
+  		<center>
+		<div class="pagination">
+
+   
+</div>
+
+  		</center>
+		</div>
+
+		
+		
+	</div> <!-- col-md-9 -->
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
+		
+			
+	<div class="widget">
+		<h4>Categories</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/HTML/">HTML<span>1</span></a></li>
+		
+			<li><a href="/categories/git/">git<span>1</span></a></li>
+		
+			<li><a href="/categories/java/">java<span>1</span></a></li>
+		
+			<li><a href="/categories/javascript/">javascript<span>1</span></a></li>
+		
+			<li><a href="/categories/web/">web<span>1</span></a></li>
+		
+		</ul>
+	</div>
+
+		
+			
+	<div class="widget">
+		<h4>Tag Cloud</h4>
+		<ul class="tag_box inline list-unstyled">		
+		
+			<li><a href="/tags/eclipse/">eclipse<span>1</span></a></li>
+		
+			<li><a href="/tags/git/">git<span>1</span></a></li>
+		
+			<li><a href="/tags/web/">web<span>1</span></a></li>
+		
+			<li><a href="/tags/HTML/">HTML<span>1</span></a></li>
+		
+			<li><a href="/tags/javascript/">javascript<span>2</span></a></li>
+		
+			<li><a href="/tags/java/">java<span>1</span></a></li>
+		
+		 
+		</ul>
+	</div>
+
+
+		
+			
+<div class="widget">
+  <h4>Recent Posts</h4>
+  <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2017/05/12/git使用ssh配置多个账号/" ><i class="fa fa-file-o"></i>git使用ssh配置多个账号</a>
+      </li>
+    
+      <li>
+        <a href="/2017/01/09/js中的this/" ><i class="fa fa-file-o"></i>js中的this</a>
+      </li>
+    
+      <li>
+        <a href="/2016/01/01/关于Promise/" ><i class="fa fa-file-o"></i>关于Promise</a>
+      </li>
+    
+      <li>
+        <a href="/2015/11/17/JS交换两个变量的值/" ><i class="fa fa-file-o"></i>JS交换两个变量的值</a>
+      </li>
+    
+      <li>
+        <a href="/2015/10/12/HTML中meta标签用法及示例/" ><i class="fa fa-file-o"></i>HTML中meta标签用法及示例</a>
+      </li>
+    
+  </ul>
+</div>
+
+		
+			
+<div class="widget">
+	<h4>Links</h4>
+	<ul class="blogroll list-unstyled">
+	
+		<li><i class="fa fa-github"></i><a href="https://github.com/wzpan/hexo-theme-freemind" title="Freemind's Github repository." target="_blank"]);">Freemind</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="https://github.com/kristopolous/BOOTSTRA.386" title="BOOTSTRA.386's Github repository." target="_blank"]);">BOOTSTRA.386</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="https://github.com/blackshow/hexo-theme-freemind.386" title="Freemind.386's Github repository." target="_blank"]);">Freemind.386</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="http://www.github.com/blackshow" title="My Github account." target="_blank"]);">My Github</a></li>
+	
+	</ul>
+</div>
+
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+	
+	
+</div> <!-- row-fluid -->
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2020 rubine.lee
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a>,<a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>,<a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> and <a href="http://getbootstrap.com/" target="_blank">BOOTSTRA.386</a>. 
+     <br> Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind.386</a>.    
+</p>
+ </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>⬆︎TOP</span>
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>
