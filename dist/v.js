@@ -1,1 +1,1 @@
-window.chkVersion('0.1.0');
+window.chkVersion('0.1.1');
