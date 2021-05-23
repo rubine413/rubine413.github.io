@@ -1,0 +1,2046 @@
+{
+  "nodes": [
+    { "width": 85, "key": 3, "id": "纺织原料", "title": "时尚服装产业链——原料环节", "diagram": true, "text": "纺织原料", "loc": "-552.2402448369567 100.9225241847829" },
+    { "width": 85, "key": -32, "id": "纺纱", "title": "时尚服装产业链——纺纱环节", "diagram": true, "text": "纱线", "loc": "-552.2402448369567 169.61817635869593" },
+    { "key": "Arrow-101", "figure": "Arrow2", "category": "ShapeNode", "loc": "-622.6086956521741 502.6616546195656", "width": 44, "height": 15 },
+    { "key": "Arrow-102", "figure": "ArrowLeft", "category": "ShapeNode", "loc": "-480.86956521739125 502.6616546195656", "width": 44, "height": 15 },
+    { "key": "Arrow-201", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 134.99520953634539", "width": 15, "height": 30 },
+    { "key": "Arrow-202", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 602.8212964928671", "width": 15, "height": 30 },
+    { "key": "Arrow-203", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 535.8647747537367", "width": 15, "height": 30 },
+    { "key": "Arrow-204", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 468.038687797215", "width": 15, "height": 30 },
+    { "key": "Arrow-205", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 402.8212964928672", "width": 15, "height": 30 },
+    { "key": "Arrow-206", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 336.73433997112807", "width": 15, "height": 30 },
+    { "key": "Arrow-207", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 270.6473834493889", "width": 15, "height": 30 },
+    { "key": "Arrow-208", "figure": "ArrowDown", "category": "ShapeNode", "loc": "-551.1956521739132 201.95173127547582", "width": 15, "height": 30 },
+    { "width": 85, "key": -37, "id": "织布", "title": "时尚服装产业链——织布环节", "diagram": true, "text": "坯布", "loc": "-552.2402448369567 237.44426331521768" },
+    { "width": 85, "key": -38, "id": "印染", "title": "时尚服装产业链——印染环节", "diagram": true, "text": "印染", "loc": "-552.2402448369567 303.53121983695684" },
+    { "key": "Text-202", "text": "纺纱", "id": "", "category": "TextNode", "loc": "-568.6956521739133 121.73913043478271" },
+    { "key": "Text-203", "text": "织造", "id": "织造", "category": "TextNode", "loc": "-568.6956521739131 190.43478260869574" },
+    { "key": "Text-204", "text": "印染、整理", "id": "印染、整理", "category": "TextNode", "loc": "-584.3478260869567 257.39130434782624" },
+    { "key": "Text-205", "text": "分销", "id": "分销", "category": "TextNode", "loc": "-566.0869565217392 453.04347826086973" },
+    { "key": "Text-206", "text": "分销", "id": "分销", "category": "TextNode", "loc": "-567.826086956522 388.69565217391306" },
+    { "key": "Text-207", "text": "打版、制衣", "id": "打版、制衣", "category": "TextNode", "loc": "-583.4782608695652 520.8695652173915" },
+    { "key": "Text-208", "text": "设计", "id": "设计", "category": "TextNode", "loc": "-634.782608695652 494.78260869565247" },
+    { "width": 85, "key": -39, "id": "", "text": "一级批发商", "loc": "-552.2402448369567 370.4877415760873" },
+    { "width": 85, "key": -40, "id": "", "text": "多级分销商", "loc": "-552.2402448369567 434.8355676630438" },
+    { "width": 85, "key": -41, "id": "", "text": "面辅料", "loc": "-410.5011144021739 502.6616546195656" },
+    { "width": 85, "key": -42, "id": "服装成衣", "title": "时尚服装产业链——制衣环节", "diagram": true, "text": "服装成衣", "loc": "-552.2402448369567 502.6616546195656" },
+    { "width": 85, "key": -43, "id": "", "text": "服装设计", "loc": "-691.3706796195653 502.6616546195656" },
+    { "width": 85, "key": -45, "id": "服装品牌商", "text": "服装品牌商", "loc": "-552.2402448369567 569.6181763586958" },
+    { "width": 85, "key": -44, "id": "渠道", "title": "时尚服装产业链——渠道环节", "diagram": true, "text": "渠道", "loc": "-552.2402448369567 637.4442633152175" }
+  ],
+  "links": [],
+  "data": {},
+  "diagram": {
+    "纺织原料": {
+      "nodeDataArray": [
+        { "width": 85, "key": -311, "id": "", "text": "纺织原料", "loc": "-46.869565217391255 366.1399154891307" },
+        { "key": "virtual-33", "text": "", "isGroup": true, "padding": "25 5 25 5", "category": "OfGroupNodes2", "loc": "-251.391304347826 227.14935417798924" },
+        { "width": 85, "key": 3, "id": "", "text": "天然纤维", "group": "virtual-33", "loc": "-203.391304347826 265.27035027173923" },
+        { "width": 85, "key": -32, "id": "", "text": "化学纤维", "group": "virtual-33", "loc": "-203.391304347826 487.8790459239133" },
+        { "key": "virtual-11", "text": "", "isGroup": true, "category": "OfGroupNodes2", "loc": "-407.1967665760867 196.7145715692936" },
+        { "width": 85, "key": -33, "id": "", "text": "棉", "group": "virtual-11", "loc": "-359.1967665760867 214.8355676630436" },
+        { "width": 85, "key": -34, "id": "", "text": "麻", "group": "virtual-11", "loc": "-359.1967665760867 249.61817635869573" },
+        { "width": 85, "key": -35, "id": "", "text": "毛", "group": "virtual-11", "loc": "-359.1967665760867 316.5746980978261" },
+        { "width": 85, "key": -36, "id": "", "text": "丝", "group": "virtual-11", "loc": "-359.1967665760867 282.66165461956535" },
+        { "key": "virtual-12", "text": "", "isGroup": true, "category": "OfGroupNodes2", "padding": "25 5 25 5", "loc": "-408.06633179347807 351.4971802649457" },
+        { "width": 85, "key": -63, "id": "", "text": "人造纤维", "group": "virtual-12", "loc": "-360.06633179347796 389.61817635869573" },
+        { "width": 85, "key": -64, "id": "", "text": "合成纤维", "group": "virtual-12", "loc": "-360.06633179347807 567.879045923913" },
+        { "key": "virtual-13", "text": "", "isGroup": true, "category": "OfGroupNodes2", "loc": "-562.8489404891303 228.01891939538046" },
+        { "width": 85, "key": -19, "id": "", "text": "涤纶", "group": "virtual-13", "loc": "-514.8489404891301 246.1399154891305" },
+        { "width": 85, "key": -21, "id": "", "text": "腈纶", "group": "virtual-13", "loc": "-514.8489404891303 276.1399154891305" },
+        { "width": 85, "key": -20, "id": "", "text": "锦纶", "group": "virtual-13", "loc": "-514.8489404891301 306.13991548913043" },
+        { "width": 85, "key": -22, "id": "", "text": "维纶", "group": "virtual-13", "loc": "-514.8489404891301 336.1399154891305" },
+        { "width": 85, "key": -23, "id": "", "text": "氯纶", "group": "virtual-13", "loc": "-514.8489404891301 366.1399154891305" },
+        { "width": 85, "key": -24, "id": "", "text": "聚烯烃\n弹力纤维", "group": "virtual-13", "loc": "-514.8489404891301 403.0964372282608" },
+        { "key": "Text-208", "text": "合成纤维", "category": "TextNode", "group": "virtual-13", "loc": "-542.6750274456518 427.7920894021738" },
+        { "key": "virtual-14", "text": "", "isGroup": true, "category": "OfGroupNodes2", "loc": "-561.9793752717391 465.41022374320664" },
+        { "width": 85, "key": -25, "id": "", "text": "粘胶纤维", "group": "virtual-14", "loc": "-513.9793752717391 483.53121983695667" },
+        { "width": 85, "key": -26, "id": "", "text": "蛋白质纤维", "group": "virtual-14", "loc": "-513.9793752717391 518.3138285326088" },
+        { "width": 85, "key": -27, "id": "", "text": "醋酯纤维", "group": "virtual-14", "loc": "-513.9793752717391 552.2268720108696" },
+        { "width": 85, "key": -28, "id": "", "text": "铜氨纤维", "group": "virtual-14", "loc": "-513.9793752717391 587.8790459239133" },
+        { "key": "Text-2082", "text": "人造纤维", "category": "TextNode", "group": "virtual-14", "loc": "-539.1967665760866 605.8790459239133" },
+        { "key": "Arrow-101", "figure": "Arrow2", "category": "ShapeNode", "group": "virtual-10", "loc": "-277.391304347826 264.00120308036645", "width": 44, "height": 15 },
+        { "key": "Arrow-102", "figure": "Arrow2", "category": "ShapeNode", "group": "virtual-10", "loc": "-277.391304347826 487.4794639499315", "width": 44, "height": 15 },
+        { "key": "Arrow-105", "figure": "Arrow2", "category": "ShapeNode", "group": "virtual-10", "loc": "-118.26086956521738 365.7403335151489", "width": 44, "height": 20 },
+        { "key": "Arrow-103", "figure": "Arrow2", "category": "ShapeNode", "group": "virtual-10", "loc": "-438.26086956521726 565.7403335151489", "width": 44, "height": 15 },
+        { "key": "Arrow-104", "figure": "Arrow2", "category": "ShapeNode", "group": "virtual-10", "loc": "-438.2608695652174 389.2185943847141", "width": 44, "height": 15 },
+        { "key": "Text-301", "text": "原  料  环  节", "font": "bold 16px sans-serif", "category": "TextNode", "loc": "-402.608695652174 661.739130434783" }
+      ],
+      "linkDataArray": []
+    },
+    "纺纱": {
+      "nodeDataArray": [
+        {
+          "key": "virtual-11",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "5 5 10 5"
+        },
+        {
+          "width": 85,
+          "key": -33,
+          "id": "",
+          "text": "清棉",
+          "group": "virtual-11",
+          "loc": "-654 320"
+        },
+        {
+          "width": 85,
+          "key": -34,
+          "id": "",
+          "text": "梳棉",
+          "group": "virtual-11",
+          "loc": "-513 320"
+        },
+        {
+          "width": 85,
+          "key": -35,
+          "id": "",
+          "text": "精梳",
+          "group": "virtual-11",
+          "loc": "-369 320"
+        },
+        {
+          "width": 85,
+          "key": -36,
+          "id": "",
+          "text": "并条",
+          "group": "virtual-11",
+          "loc": "-227 320"
+        },
+        {
+          "width": 85,
+          "key": -57,
+          "id": "",
+          "text": "粗纱",
+          "group": "virtual-11",
+          "loc": "-82.5 320"
+        },
+        {
+          "width": 85,
+          "key": -58,
+          "id": "",
+          "text": "细纱",
+          "group": "virtual-11",
+          "loc": "61 320"
+        },
+        {
+          "key": "Text-111",
+          "text": "纺 纱 工 艺",
+          "group": "virtual-11",
+          "font": "bold 13px sans-serif",
+          "category": "TextNode",
+          "loc": "-326.54459266304326 278.2363106997285"
+        },
+        {
+          "key": "Arrow-111",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-441.7391304347826 320.5229422108011",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-112",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-155.6521739130435 320.5229422108011",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-113",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-12.173913043478024 320.5229422108011",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-114",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-582.6086956521739 320.5229422108011",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-115",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-298.2608695652174 320.5229422108011",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "width": 85,
+          "key": -19,
+          "id": "",
+          "text": "纱线",
+          "loc": "219.06410298913056 320"
+        },
+        {
+          "key": "virtual-14",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -25,
+          "id": "",
+          "text": "开棉机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-654 117.44426331521737"
+        },
+        {
+          "width": 85,
+          "key": -26,
+          "id": "",
+          "text": "混棉机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-654 152.2268720108695"
+        },
+        {
+          "width": 85,
+          "key": -27,
+          "id": "",
+          "text": "清棉机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-654 186.13991548913026"
+        },
+        {
+          "width": 85,
+          "key": -28,
+          "id": "",
+          "text": "成卷机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-654 220"
+        },
+        {
+          "key": "Text-141",
+          "text": "清棉设备",
+          "group": "virtual-14",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-679.4576361413041 238"
+        },
+        {
+          "key": "virtual-15",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -65,
+          "id": "",
+          "text": "梳棉机",
+          "fill": "#3F51B5",
+          "group": "virtual-15",
+          "loc": "-513 220"
+        },
+        {
+          "key": "Text-151",
+          "text": "梳棉设备",
+          "group": "virtual-15",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-540.3272013586952 238"
+        },
+        {
+          "key": "virtual-16",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -66,
+          "id": "",
+          "text": "精梳机",
+          "fill": "#3F51B5",
+          "group": "virtual-16",
+          "loc": "-369 220"
+        },
+        {
+          "key": "Text-161",
+          "text": "精梳设备",
+          "group": "virtual-16",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-396.979375271739 238"
+        },
+        {
+          "key": "virtual-17",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -67,
+          "id": "",
+          "text": "并条机",
+          "fill": "#3F51B5",
+          "group": "virtual-17",
+          "loc": "-227 220"
+        },
+        {
+          "key": "Text-171",
+          "text": "并条设备",
+          "group": "virtual-17",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-254.28372309782583 238"
+        },
+        {
+          "key": "virtual-18",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -68,
+          "id": "",
+          "text": "粗纱机",
+          "fill": "#3F51B5",
+          "group": "virtual-18",
+          "loc": "-82.5 220"
+        },
+        {
+          "key": "Text-181",
+          "text": "粗纱设备",
+          "group": "virtual-18",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-110.19676657608659 238"
+        },
+        {
+          "key": "virtual-19",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -69,
+          "id": "",
+          "text": "细纱机",
+          "fill": "#3F51B5",
+          "group": "virtual-19",
+          "loc": "61 220"
+        },
+        {
+          "key": "Text-191",
+          "text": "细纱设备",
+          "group": "virtual-19",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "33.194537771739306 238"
+        },
+        {
+          "key": "Arrow-101",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "140.86956521739154 321.39250742819246",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Text-301",
+          "text": "纺  纱  环  节",
+          "font": "bold 16px sans-serif",
+          "category": "TextNode",
+          "loc": "-259.1304347826088 501.7391304347829"
+        }
+      ],
+      "linkDataArray": []
+    },
+    "织布": {
+      "nodeDataArray": [
+        {
+          "key": "virtual-12",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "5 5 10 5"
+        },
+        {
+          "width": 85,
+          "key": -63,
+          "id": "",
+          "text": "络筒",
+          "group": "virtual-12",
+          "loc": "-654 397"
+        },
+        {
+          "width": 85,
+          "key": -59,
+          "id": "",
+          "text": "整经",
+          "group": "virtual-12",
+          "loc": "-513 397"
+        },
+        {
+          "width": 85,
+          "key": -60,
+          "id": "",
+          "text": "浆纱",
+          "group": "virtual-12",
+          "loc": "-369 397"
+        },
+        {
+          "width": 85,
+          "key": -61,
+          "id": "",
+          "text": "穿经",
+          "group": "virtual-12",
+          "loc": "-227 397"
+        },
+        {
+          "width": 85,
+          "key": -62,
+          "id": "",
+          "text": "织造",
+          "group": "virtual-12",
+          "loc": "-82.5 397"
+        },
+        {
+          "width": 85,
+          "key": -64,
+          "id": "",
+          "text": "整理",
+          "group": "virtual-12",
+          "loc": "61 397"
+        },
+        {
+          "key": "Text-121",
+          "text": "织 布 工 艺",
+          "group": "virtual-12",
+          "font": "bold 13px sans-serif",
+          "category": "TextNode",
+          "loc": "-326.5445926630433 357.36674548233685"
+        },
+        {
+          "key": "Arrow-121",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-441.7391304347826 397",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-122",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-582.6086956521739 397",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-123",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-155.6521739130435 397",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-124",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-12.173913043478024 397",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Arrow-125",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-298.2608695652174 397",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "width": 85,
+          "key": -21,
+          "id": "",
+          "text": "坯布",
+          "loc": "217.32497255434788 397"
+        },
+        {
+          "key": "virtual-20",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -70,
+          "id": "",
+          "text": "验布机",
+          "fill": "#3F51B5",
+          "group": "virtual-20",
+          "loc": "61 470"
+        },
+        {
+          "width": 85,
+          "key": -71,
+          "id": "",
+          "text": "刷布机",
+          "fill": "#3F51B5",
+          "group": "virtual-20",
+          "loc": "61 501.79208940217376"
+        },
+        {
+          "width": 85,
+          "key": -72,
+          "id": "",
+          "text": "折布机",
+          "fill": "#3F51B5",
+          "group": "virtual-20",
+          "loc": "61 535.7051328804346"
+        },
+        {
+          "width": 85,
+          "key": -73,
+          "id": "",
+          "text": "打包机",
+          "fill": "#3F51B5",
+          "group": "virtual-20",
+          "loc": "61 571.3573067934783"
+        },
+        {
+          "key": "Text-201",
+          "text": "整理设备",
+          "group": "virtual-20",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "33.194537771739306 432"
+        },
+        {
+          "key": "virtual-21",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -74,
+          "id": "",
+          "text": "络筒机",
+          "fill": "#3F51B5",
+          "group": "virtual-21",
+          "loc": "-654 470"
+        },
+        {
+          "key": "Text-211",
+          "text": "络筒设备",
+          "group": "virtual-21",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-679.4576361413041 432"
+        },
+        {
+          "key": "virtual-22",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -75,
+          "id": "",
+          "text": "整经机",
+          "fill": "#3F51B5",
+          "group": "virtual-22",
+          "loc": "-513 470"
+        },
+        {
+          "key": "Text-221",
+          "text": "整经设备",
+          "group": "virtual-22",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-540.3272013586952 432"
+        },
+        {
+          "key": "virtual-23",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -76,
+          "id": "",
+          "text": "浆纱机",
+          "fill": "#3F51B5",
+          "group": "virtual-23",
+          "loc": "-369 470"
+        },
+        {
+          "key": "Text-231",
+          "text": "浆纱设备",
+          "group": "virtual-23",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-396.979375271739 432"
+        },
+        {
+          "key": "virtual-24",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -77,
+          "id": "",
+          "text": "穿经机",
+          "fill": "#3F51B5",
+          "group": "virtual-24",
+          "loc": "-227 470"
+        },
+        {
+          "key": "Text-241",
+          "text": "穿经设备",
+          "group": "virtual-24",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-254.28372309782583 432"
+        },
+        {
+          "key": "virtual-25",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9"
+        },
+        {
+          "width": 85,
+          "key": -78,
+          "id": "",
+          "text": "梭织机",
+          "fill": "#3F51B5",
+          "group": "virtual-25",
+          "loc": "-82.5 470"
+        },
+        {
+          "key": "Text-251",
+          "text": "织造设备",
+          "group": "virtual-25",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-110.19676657608659 432"
+        },
+        {
+          "key": "Arrow-102",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "140.86956521739154 397.04468134123596",
+          "width": 44,
+          "height": 15
+        },
+        {
+          "key": "Text-301",
+          "text": "织  布  环  节",
+          "font": "bold 16px sans-serif",
+          "category": "TextNode",
+          "loc": "-259.1304347826088 601.7391304347829"
+        }
+      ],
+      "linkDataArray": []
+    },
+    "印染": {
+      "nodeDataArray": [
+        {
+          "key": "virtual-11",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "10 5 5 5"
+        },
+        {
+          "width": 85,
+          "key": -33,
+          "id": "",
+          "text": "原布准备",
+          "group": "virtual-11",
+          "loc": "-675.7391304347827 287"
+        },
+        {
+          "width": 60,
+          "key": -34,
+          "id": "",
+          "text": "烧毛",
+          "group": "virtual-11",
+          "loc": "-561.6956521739131 287"
+        },
+        {
+          "width": 60,
+          "key": -35,
+          "id": "",
+          "text": "退浆",
+          "group": "virtual-11",
+          "loc": "-455.08695652173935 287"
+        },
+        {
+          "width": 60,
+          "key": -36,
+          "id": "",
+          "text": "煮练",
+          "group": "virtual-11",
+          "loc": "-351.3478260869567 287"
+        },
+        {
+          "width": 60,
+          "key": -57,
+          "id": "",
+          "text": "漂白",
+          "group": "virtual-11",
+          "loc": "-244.2391304347828 287"
+        },
+        {
+          "width": 60,
+          "key": -58,
+          "id": "",
+          "text": "丝光",
+          "group": "virtual-11",
+          "loc": "-138 287"
+        },
+        {
+          "key": "Text-111",
+          "text": "前处理工艺",
+          "group": "virtual-11",
+          "font": "bold 13px sans-serif",
+          "category": "TextNode",
+          "loc": "-466.5445926630434 306"
+        },
+        {
+          "key": "Arrow-111",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-507.56521739130454 287",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-112",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-295.39130434782624 287",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-113",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-193.0434782608694 287",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-114",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-613.9130434782611 287",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-115",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-11",
+          "loc": "-403.4782608695653 287",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "virtual-12",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "10 5 5 5"
+        },
+        {
+          "width": 50,
+          "key": -63,
+          "id": "",
+          "text": "预缩",
+          "group": "virtual-12",
+          "loc": "-692.2608695652174 448"
+        },
+        {
+          "width": 50,
+          "key": -59,
+          "id": "",
+          "text": "拉幅",
+          "group": "virtual-12",
+          "loc": "-607 448"
+        },
+        {
+          "width": 50,
+          "key": -60,
+          "id": "",
+          "text": "上浆",
+          "group": "virtual-12",
+          "loc": "-517.695652173913 448"
+        },
+        {
+          "width": 50,
+          "key": -61,
+          "id": "",
+          "text": "定型",
+          "group": "virtual-12",
+          "loc": "-428.73913043478257 448"
+        },
+        {
+          "width": 50,
+          "key": -62,
+          "id": "",
+          "text": "增白",
+          "group": "virtual-12",
+          "loc": "-339.02173913043475 448"
+        },
+        {
+          "width": 50,
+          "key": -64,
+          "id": "",
+          "text": "轧光",
+          "group": "virtual-12",
+          "loc": "-250.30434782608688 448"
+        },
+        {
+          "width": 50,
+          "key": -48,
+          "id": "",
+          "text": "磨毛",
+          "group": "virtual-12",
+          "loc": "-162.47826086956525 448"
+        },
+        {
+          "width": 50,
+          "key": -49,
+          "id": "",
+          "text": "起毛",
+          "group": "virtual-12",
+          "loc": "-73.78260869565196 448"
+        },
+        {
+          "width": 50,
+          "key": -50,
+          "id": "",
+          "text": "剪毛",
+          "group": "virtual-12",
+          "loc": "14.04347826086962 448"
+        },
+        {
+          "width": 50,
+          "key": -51,
+          "id": "",
+          "text": "柔软",
+          "group": "virtual-12",
+          "loc": "101.5 448"
+        },
+        {
+          "key": "Text-121",
+          "text": "后整理工艺",
+          "group": "virtual-12",
+          "font": "bold 13px sans-serif",
+          "category": "TextNode",
+          "loc": "-314.37067961956507 472.14935417798915"
+        },
+        {
+          "key": "Arrow-121",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-562.0782608695652 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-122",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-649.5652173913043 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-123",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-294.7826086956522 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-124",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-205.21739130434753 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-125",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-29.565217391304486 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-126",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "59.1304347826088 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-127",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-117.39130434782618 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-128",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-384.3478260869566 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-129",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "group": "virtual-12",
+          "loc": "-473.04347826086956 448",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "virtual-13",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "35 25 35 25"
+        },
+        {
+          "width": 85,
+          "key": -19,
+          "id": "",
+          "text": "印染",
+          "group": "virtual-13",
+          "loc": "223.4119290760874 287"
+        },
+        {
+          "width": 85,
+          "key": -21,
+          "id": "",
+          "text": "绣花",
+          "group": "virtual-13",
+          "loc": "224.2814942934786 363.0869565217392"
+        },
+        {
+          "width": 85,
+          "key": -52,
+          "id": "",
+          "text": "面料整理",
+          "group": "virtual-13",
+          "loc": "225.1510595108702 448"
+        },
+        {
+          "width": 85,
+          "key": -53,
+          "id": "",
+          "text": "成品质检",
+          "group": "virtual-13",
+          "loc": "228.6293203804351 521.3478260869565"
+        },
+        {
+          "key": "Arrow-131",
+          "figure": "ArrowDown",
+          "category": "ShapeNode",
+          "group": "virtual-13",
+          "loc": "223.5 323.80555090645385",
+          "width": 15,
+          "height": 37
+        },
+        {
+          "key": "Arrow-132",
+          "figure": "ArrowDown",
+          "category": "ShapeNode",
+          "group": "virtual-13",
+          "loc": "223.5 403.80555090645385",
+          "width": 15,
+          "height": 37
+        },
+        {
+          "key": "Arrow-133",
+          "figure": "ArrowDown",
+          "category": "ShapeNode",
+          "group": "virtual-13",
+          "loc": "223.5 486.4142465586278",
+          "width": 15,
+          "height": 37
+        },
+        {
+          "key": "virtual-14",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9",
+          "loc": "-418 57.87900390625"
+        },
+        {
+          "width": 85,
+          "key": -25,
+          "id": "",
+          "text": "烧毛机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-370 76"
+        },
+        {
+          "width": 85,
+          "key": -26,
+          "id": "",
+          "text": "退浆机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-274 76"
+        },
+        {
+          "width": 85,
+          "key": -27,
+          "id": "",
+          "text": "磨毛机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-180 76"
+        },
+        {
+          "width": 85,
+          "key": -28,
+          "id": "",
+          "text": "绣花机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-86 76"
+        },
+        {
+          "width": 85,
+          "key": -54,
+          "id": "",
+          "text": "丝光机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-370 108"
+        },
+        {
+          "width": 85,
+          "key": -55,
+          "id": "",
+          "text": "液氨机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-274 108"
+        },
+        {
+          "width": 85,
+          "key": -56,
+          "id": "",
+          "text": "抓毛机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-180 108"
+        },
+        {
+          "width": 85,
+          "key": -65,
+          "id": "",
+          "text": "印花机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-86 108"
+        },
+        {
+          "width": 85,
+          "key": -66,
+          "id": "",
+          "text": "定型机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-370 140"
+        },
+        {
+          "width": 85,
+          "key": -67,
+          "id": "",
+          "text": "预缩机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-274 140"
+        },
+        {
+          "width": 85,
+          "key": -68,
+          "id": "",
+          "text": "涂层机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-180 140"
+        },
+        {
+          "width": 85,
+          "key": -69,
+          "id": "",
+          "text": "染色机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-86 140"
+        },
+        {
+          "width": 85,
+          "key": -70,
+          "id": "",
+          "text": "轧光机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-370 172"
+        },
+        {
+          "width": 85,
+          "key": -71,
+          "id": "",
+          "text": "水洗机",
+          "fill": "#3F51B5",
+          "group": "virtual-14",
+          "loc": "-274 172"
+        },
+        {
+          "key": "Text-141",
+          "text": "印染设备",
+          "group": "virtual-14",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-258.5880709239128 198"
+        },
+        {
+          "width": 60,
+          "key": -72,
+          "id": "",
+          "text": "染色",
+          "loc": "-14.869565217391369 287"
+        },
+        {
+          "width": 60,
+          "key": -73,
+          "id": "",
+          "text": "印花",
+          "loc": "99.91304347826099 287"
+        },
+        {
+          "key": "Arrow-101",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-73.91304347826082 287",
+          "width": 40,
+          "height": 15
+        },
+        {
+          "key": "Arrow-102",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "44.34782608695667 287",
+          "width": 40,
+          "height": 15
+        },
+        {
+          "key": "Arrow-103",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "157.8913043478263 448",
+          "width": 40,
+          "height": 15
+        },
+        {
+          "key": "Arrow-104",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "157.8913043478263 287",
+          "width": 40,
+          "height": 15
+        },
+        {
+          "key": "Arrow-1042",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "326.58695652173975 400.04347826086956",
+          "width": 40,
+          "height": 15
+        },
+        {
+          "width": 85,
+          "key": -222,
+          "id": "",
+          "text": "印染",
+          "loc": "400.80323342391335 400.0869565217392"
+        },
+        {
+          "key": "Text-301",
+          "text": "印  染  环  节",
+          "font": "bold 16px sans-serif",
+          "category": "TextNode",
+          "loc": "-259.1304347826088 601.7391304347829"
+        }
+      ],
+      "linkDataArray": []
+    },
+    "服装成衣": {
+      "nodeDataArray": [
+        {
+          "key": "virtual-11",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "10 5 5 5"
+        },
+        {
+          "width": 85,
+          "key": -33,
+          "id": "",
+          "text": "里料",
+          "group": "virtual-11",
+          "loc": "-780 166"
+        },
+        {
+          "width": 85,
+          "key": -34,
+          "id": "",
+          "text": "装饰材料",
+          "group": "virtual-11",
+          "loc": "-684 166"
+        },
+        {
+          "width": 85,
+          "key": -35,
+          "id": "",
+          "text": "衬料",
+          "group": "virtual-11",
+          "loc": "-780 200"
+        },
+        {
+          "width": 85,
+          "key": -36,
+          "id": "",
+          "text": "线带材料",
+          "group": "virtual-11",
+          "loc": "-684 200"
+        },
+        {
+          "width": 85,
+          "key": -57,
+          "id": "",
+          "text": "填料",
+          "group": "virtual-11",
+          "loc": "-780 234"
+        },
+        {
+          "width": 85,
+          "key": -58,
+          "id": "",
+          "text": "紧扣材料",
+          "group": "virtual-11",
+          "loc": "-684 234"
+        },
+        {
+          "key": "Text-111",
+          "text": "面  辅  料",
+          "group": "virtual-11",
+          "font": "bold 13px sans-serif",
+          "category": "TextNode",
+          "loc": "-756.5445926630435 253"
+        },
+        {
+          "key": "Text-121",
+          "text": "设计",
+          "category": "TextNode",
+          "loc": "-642.6315491847828 326.0434782608695"
+        },
+        {
+          "key": "Text-131",
+          "text": "成  衣  工  艺",
+          "group": "virtual-13",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-224.34782608695667 374.7826086956525"
+        },
+        {
+          "width": 75,
+          "key": -60,
+          "id": "",
+          "text": "服装设计",
+          "loc": "-703.7826086956522 355"
+        },
+        {
+          "key": "virtual-13",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2"
+        },
+        {
+          "width": 75,
+          "key": -61,
+          "id": "",
+          "text": "打版试样",
+          "group": "virtual-13",
+          "loc": "-543.5217391304348 355"
+        },
+        {
+          "width": 55,
+          "key": -62,
+          "id": "",
+          "text": "裁剪",
+          "group": "virtual-13",
+          "loc": "-432.93478260869557 355"
+        },
+        {
+          "width": 55,
+          "key": -64,
+          "id": "",
+          "text": "缝制",
+          "group": "virtual-13",
+          "loc": "-337.2608695652173 355"
+        },
+        {
+          "width": 55,
+          "key": -48,
+          "id": "",
+          "text": "水洗",
+          "group": "virtual-13",
+          "loc": "-243.34782608695667 355"
+        },
+        {
+          "width": 75,
+          "key": -49,
+          "id": "",
+          "text": "锁眼钉扣",
+          "group": "virtual-13",
+          "loc": "-132.9130434782607 355"
+        },
+        {
+          "width": 55,
+          "key": -50,
+          "id": "",
+          "text": "熨烫",
+          "group": "virtual-13",
+          "loc": "-26.826086956521806 355"
+        },
+        {
+          "width": 55,
+          "key": -51,
+          "id": "",
+          "text": "质检",
+          "group": "virtual-13",
+          "loc": "68.45652173913038 355"
+        },
+        {
+          "width": 55,
+          "key": -44,
+          "id": "",
+          "text": "包装",
+          "group": "virtual-13",
+          "loc": "164.5434782608698 355"
+        },
+        {
+          "key": "Arrow-101",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-621.8173913043479 355",
+          "width": 66,
+          "height": 15
+        },
+        {
+          "key": "Arrow-103",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-290.43478260869585 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-104",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "116.52173913043526 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-105",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "21.73913043478268 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-106",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-73.91304347826076 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-107",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-193.9130434782611 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-108",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-483.47826086956525 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "Arrow-109",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-384.34782608695633 355",
+          "width": 30,
+          "height": 15
+        },
+        {
+          "key": "virtual-12",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "stroke": "#c5cae9",
+          "padding": "10 5 5 5",
+          "loc": "-591 108.87900390625"
+        },
+        {
+          "width": 85,
+          "key": -25,
+          "id": "",
+          "text": "验布机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-543 132"
+        },
+        {
+          "width": 85,
+          "key": -26,
+          "id": "",
+          "text": "切割机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-447 132"
+        },
+        {
+          "width": 85,
+          "key": -27,
+          "id": "",
+          "text": "开袋机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-351 132"
+        },
+        {
+          "width": 85,
+          "key": -28,
+          "id": "",
+          "text": "制版机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-255 132"
+        },
+        {
+          "width": 85,
+          "key": -54,
+          "id": "",
+          "text": "锁眼机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-159 132"
+        },
+        {
+          "width": 85,
+          "key": -55,
+          "id": "",
+          "text": "珠边机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-63 132"
+        },
+        {
+          "width": 85,
+          "key": -56,
+          "id": "",
+          "text": "熨烫机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "33 132"
+        },
+        {
+          "width": 85,
+          "key": -65,
+          "id": "",
+          "text": "压烫机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "129 132"
+        },
+        {
+          "width": 85,
+          "key": -66,
+          "id": "",
+          "text": "铺布机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-543 166"
+        },
+        {
+          "width": 85,
+          "key": -67,
+          "id": "",
+          "text": "粘合机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-447 166"
+        },
+        {
+          "width": 85,
+          "key": -68,
+          "id": "",
+          "text": "裁剪机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-351 166"
+        },
+        {
+          "width": 85,
+          "key": -69,
+          "id": "",
+          "text": "裁床",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-255 166"
+        },
+        {
+          "width": 85,
+          "key": -70,
+          "id": "",
+          "text": "缝纫机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-159 166"
+        },
+        {
+          "width": 85,
+          "key": -71,
+          "id": "",
+          "text": "厚料机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-63 166"
+        },
+        {
+          "width": 85,
+          "key": -45,
+          "id": "",
+          "text": "定型机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "33 166"
+        },
+        {
+          "width": 85,
+          "key": -46,
+          "id": "",
+          "text": "剪线机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "129 166"
+        },
+        {
+          "width": 85,
+          "key": -47,
+          "id": "",
+          "text": "卷布机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-543 200"
+        },
+        {
+          "width": 85,
+          "key": -52,
+          "id": "",
+          "text": "分线机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-447 200"
+        },
+        {
+          "width": 85,
+          "key": -53,
+          "id": "",
+          "text": "链条机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-351 200"
+        },
+        {
+          "width": 85,
+          "key": -63,
+          "id": "",
+          "text": "电刀",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-255 200"
+        },
+        {
+          "width": 85,
+          "key": -72,
+          "id": "",
+          "text": "锁边机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-159 200"
+        },
+        {
+          "width": 85,
+          "key": -73,
+          "id": "",
+          "text": "钉扣机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-63 200"
+        },
+        {
+          "width": 85,
+          "key": -74,
+          "id": "",
+          "text": "整烫机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "33 200"
+        },
+        {
+          "width": 85,
+          "key": -75,
+          "id": "",
+          "text": "洗涤机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "129 200"
+        },
+        {
+          "width": 85,
+          "key": -76,
+          "id": "",
+          "text": "拉布机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-543 234"
+        },
+        {
+          "width": 85,
+          "key": -77,
+          "id": "",
+          "text": "绘图机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-447 234"
+        },
+        {
+          "width": 85,
+          "key": -78,
+          "id": "",
+          "text": "套结机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-351 234"
+        },
+        {
+          "width": 85,
+          "key": -79,
+          "id": "",
+          "text": "粘衬机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-255 234"
+        },
+        {
+          "width": 85,
+          "key": -80,
+          "id": "",
+          "text": "绣花机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-159 234"
+        },
+        {
+          "width": 85,
+          "key": -81,
+          "id": "",
+          "text": "刺绣机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "-63 234"
+        },
+        {
+          "width": 85,
+          "key": -82,
+          "id": "",
+          "text": "检针机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "33 234"
+        },
+        {
+          "width": 85,
+          "key": -83,
+          "id": "",
+          "text": "跑马机",
+          "fill": "#3F51B5",
+          "group": "virtual-12",
+          "loc": "129 234"
+        },
+        {
+          "key": "Text-121",
+          "text": "成衣设备",
+          "group": "virtual-12",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-248.1532883152173 253"
+        },
+        {
+          "width": 75,
+          "key": -6033,
+          "id": "",
+          "text": "服装成衣",
+          "loc": "-184.65217391304344 473.26086956521743"
+        },
+        {
+          "key": "Arrow-201",
+          "figure": "ArrowDown",
+          "category": "ShapeNode",
+          "loc": "-187.71739130434798 429.929992145041",
+          "width": 15,
+          "height": 40
+        },
+        {
+          "key": "Text-301",
+          "text": "制  衣  环  节",
+          "font": "bold 16px sans-serif",
+          "category": "TextNode",
+          "loc": "-333.04347826086956 564.3478260869568"
+        }
+      ],
+      "linkDataArray": []
+    },
+    "渠道": {
+      "nodeDataArray": [
+        {
+          "width": 85,
+          "key": 3,
+          "id": "",
+          "text": "终端消费者",
+          "loc": "-119.91304347826076 385.27035027173923"
+        },
+        {
+          "width": 85,
+          "key": -32,
+          "id": "",
+          "text": "服装品牌商",
+          "loc": "-639.196766576087 377.44426331521777"
+        },
+        {
+          "key": "virtual-10",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "loc": "-340 248.1058759171197"
+        },
+        {
+          "key": "virtual-11",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "group": "virtual-10",
+          "loc": "-334 254.1058759171197"
+        },
+        {
+          "width": 85,
+          "key": -33,
+          "id": "",
+          "text": "电商平台",
+          "group": "virtual-11",
+          "loc": "-286 272.2268720108697"
+        },
+        {
+          "width": 85,
+          "key": -34,
+          "id": "",
+          "text": "综合电商",
+          "group": "virtual-11",
+          "loc": "-286 304.400785054348"
+        },
+        {
+          "width": 85,
+          "key": -35,
+          "id": "",
+          "text": "垂直电商",
+          "group": "virtual-11",
+          "loc": "-286 340.05295896739136"
+        },
+        {
+          "key": "virtual-12",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "group": "virtual-10",
+          "loc": "-334 405.4102237432066"
+        },
+        {
+          "width": 85,
+          "key": -63,
+          "id": "",
+          "text": "专卖店",
+          "group": "virtual-12",
+          "loc": "-286 423.5312198369566"
+        },
+        {
+          "width": 85,
+          "key": -64,
+          "id": "",
+          "text": "购物中心",
+          "group": "virtual-12",
+          "loc": "-286 458.3138285326087"
+        },
+        {
+          "width": 85,
+          "key": -24,
+          "id": "",
+          "text": "大型超市",
+          "group": "virtual-12",
+          "loc": "-286 490.487741576087"
+        },
+        {
+          "width": 85,
+          "key": -29,
+          "id": "",
+          "text": "百货商场",
+          "group": "virtual-12",
+          "loc": "-286 524.400785054348"
+        },
+        {
+          "width": 85,
+          "key": -30,
+          "id": "",
+          "text": "批发市场",
+          "group": "virtual-12",
+          "loc": "-286 557.4442633152175"
+        },
+        {
+          "key": "virtual-20",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "padding": "25 15 25 15",
+          "loc": "-534 300.1928324388588"
+        },
+        {
+          "width": 85,
+          "key": -19,
+          "id": "",
+          "text": "品牌直营",
+          "group": "virtual-20",
+          "loc": "-476 338.3138285326088"
+        },
+        {
+          "width": 85,
+          "key": -21,
+          "id": "",
+          "text": "品牌分销",
+          "group": "virtual-20",
+          "loc": "-476 440.4877415760871"
+        },
+        {
+          "key": "virtual-30",
+          "text": "",
+          "isGroup": true,
+          "category": "OfGroupNodes2",
+          "loc": "-687.196766576087 441.06239765624986"
+        },
+        {
+          "width": 85,
+          "key": -25,
+          "id": "",
+          "text": "女装",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 459.1833937499999"
+        },
+        {
+          "width": 85,
+          "key": -26,
+          "id": "",
+          "text": "男装",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 493.9660024456521"
+        },
+        {
+          "width": 85,
+          "key": -27,
+          "id": "",
+          "text": "童装",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 527.8790459239128"
+        },
+        {
+          "width": 85,
+          "key": -28,
+          "id": "",
+          "text": "运动装",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 563.5312198369566"
+        },
+        {
+          "width": 85,
+          "key": -31,
+          "id": "",
+          "text": "内衣",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 596.5746980978263"
+        },
+        {
+          "width": 85,
+          "key": -36,
+          "id": "",
+          "text": "特殊服装",
+          "group": "virtual-30",
+          "loc": "-639.196766576087 630.487741576087"
+        },
+        {
+          "key": "Text-301",
+          "text": "服装种类",
+          "group": "virtual-30",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-664.6750274456524 646.0434782608696"
+        },
+        {
+          "key": "Arrow-101",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-378.2608695652175 330.95772481949706",
+          "width": 60,
+          "height": 30
+        },
+        {
+          "key": "Arrow-102",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-380.86956521739137 447.4794639499315",
+          "width": 60,
+          "height": 30
+        },
+        {
+          "key": "Arrow-103",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-194.78260869565196 384.87076829775765",
+          "width": 44,
+          "height": 20
+        },
+        {
+          "key": "Arrow-104",
+          "figure": "Arrow2",
+          "category": "ShapeNode",
+          "loc": "-566.9565217391302 377.9142465586272",
+          "width": 44,
+          "height": 20
+        },
+        {
+          "key": "Text-3012",
+          "text": "渠  道  环  节",
+          "font": "bold 16px sans-serif",
+          "category": "TextNode",
+          "loc": "-402.608695652174 661.739130434783"
+        },
+        {
+          "key": "Text-01",
+          "text": "线上",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-400.19676657608716 320.82608695652164"
+        },
+        {
+          "key": "Text-012",
+          "text": "线下",
+          "font": "bold 12px sans-serif",
+          "category": "TextNode",
+          "loc": "-400.19676657608716 438.2173913043478"
+        }
+      ],
+      "linkDataArray": []
+    }
+  }
+}
